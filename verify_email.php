@@ -17,11 +17,11 @@
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'librarymanagment95@gmail.com';
-        $mail->Password = 'Abcdefgh1';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
-        $mail->setFrom('librarymanagment95@gmail.com', 'Varun');
+        $mail->setFrom('', 'Varun');
         $mail->addAddress($email);
         $mail->addReplyTo($email);
         $mail->isHTML(true);
