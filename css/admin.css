@@ -1,0 +1,45 @@
+* {
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+body {
+    background-image: url(img/adminpic.jpg);
+    background-size: cover;
+}
+#login {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    border-radius: 10px;
+    padding: 20px 100px 20px 100px;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.7;
+    font-weight: 500;
+}
+#login > h4 {
+    color: red; 
+    text-align: left;
+}
+input {
+    padding: 5px;
+    margin: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: none;
+    color: black;
+}
+input:focus {
+    background-color: black;
+    color: white;
+    caret-color: transparent;
+    outline: none;
+}
+#err {
+    font-size: 15px;
+    text-align: left;
+    margin: 10 0 10 0;
+}

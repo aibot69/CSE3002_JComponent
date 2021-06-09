@@ -1,0 +1,65 @@
+#search {
+    padding: 20px;
+    margin-top: -100px;
+}
+#searchbook {
+    padding: 10px;
+    color: darkgreen;
+    width: 87%;
+    border: none;
+    border-radius: 10px;
+    height: 8%;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.2);
+}
+#auth {
+    margin-top: -2%;
+}
+#searchbook:focus {
+    outline: none;
+    caret-color: azure;
+}
+#getb {
+    height: 5%;
+    float: right;
+    padding: 10px;
+}
+#getb:hover {
+    cursor: pointer;
+    color: azure;
+}
+#bookdeets {
+    margin-top: -2%;
+    display: none;
+    color: azure;
+    font-size: 22px;
+    font-family: 'Staatliches', cursive;
+    overflow-x: hidden;
+}
+#desc {
+    width: 70%;
+    word-wrap: break-word;
+}
+#ui-id-1 {
+    font-family: inherit;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+}
+#cartopts {
+    color: antiquewhite;
+    font-size: 18px;
+    margin-top: 1%;
+    width: 35%;
+}
+#add:hover {
+    color: burlywood;
+    cursor: pointer;
+}
+#msg {
+    float: right;
+    display: none;
+    background-color: transparent;
+    width: 100%;
+}

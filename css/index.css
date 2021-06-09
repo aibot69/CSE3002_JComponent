@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    font-family: 'Staatliches', cursive;
+    user-select:none;
+}
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+#navbtn:focus-within #content {
+    display: block;
+}
+#navbar {
+    z-index: 2;
+    overflow: hidden;
+    background-color: azure;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+#navbar:hover > a {
+    color: grey;
+}
+#navbar a {
+    float: left;
+    margin-left: 30px;
+    color: black;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 5px;
+}
+#navbar a:hover {
+    color: whitesmoke;
+    background-color: black;
+    opacity: 0.6;
+}
+#wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    perspective: 2px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-snap-type: y mandatory;
+}
+#wrapper::-webkit-scrollbar {
+    display: none;
+}
+.section { 
+    position: relative;
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+    transform-style: preserve-3d;
+}
+.parallax::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(2);
+    background-image: url('img/indexpic.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+#about {
+    background-image: url('img/aboutpic.jpg');
+    background-size: cover;
+    align-items: center;
+    font-size: 24px;
+}
+#abtnot {
+    font-family: 'Gaegu', cursive;
+    padding: 1%;
+    margin: 5%;
+    width: 30%;
+    word-wrap: break-word;
+    color: peachpuff;
+}

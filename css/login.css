@@ -1,0 +1,98 @@
+#login {
+    background-image: url('img/login.jpg');
+    background-size: cover;
+}
+h1 {
+    margin: 0;
+    font-size: 80;
+}
+#form {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(0%, -50%);
+    text-align: right;
+    border-radius: 10px;
+    padding: 20px 20px 20px 180px;
+    font-size: 30px;
+    background-color: rgba(255,243,184,0.5);
+    font-weight: 500;
+}
+#regform {
+    display: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px 50px 20px 20px;
+    font-size: 26px;
+    background-color: rgba(255,243,184,0.6);
+    font-weight: 500;
+}
+input {
+    font-family: 'Averia Sans Libre', cursive;
+    padding: 5px;
+    margin: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: none;
+    width: 200px;
+}
+#er {
+    font-size: 15px;
+    text-align: left;
+    margin: 10 0 10 0;
+    word-wrap: break-word;
+}
+#err {
+    font-size: 15px;
+    text-align: right;
+    margin: 10 0 10 0;
+    word-wrap: break-word;
+}
+#errlog {
+    margin-top: 100;
+    margin-left: 50;
+    height: 4%;
+    padding: 5;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgba(255,243,184,0.6);
+}
+#regform label {
+    width:220px;
+    clear:left;
+    font-size: 26px;
+    text-align:left;
+    padding-right:10px;
+}
+.but {
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.but:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+#regform input {float:left;}
+#regform label {float:left;}
+.newacc {
+    font-size: 20px;
+    color: azure;
+}
+.newacc:hover {
+    color: blanchedalmond;
+    cursor: pointer;
+}
+input:focus {
+    background-color: azure;
+    color: plum;
+    outline: none;
+}
